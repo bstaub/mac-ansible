@@ -46,21 +46,21 @@
   tags:
   - pyenv
 
-- name: python versions latest build requirements
-  pip:
-    name:
-    - Cython
-    - pip
-    - pip-tools
-    - setuptools
-    - virtualenv
-    state: latest
-    executable: '~/.pyenv/versions/{{ item }}/bin/pip{% if "pypy3" in item %}3{% endif %}'
-  environment:
-    PIP_REQUIRE_VIRTUALENV: ""
-  loop: '{{ pyenv_python_versions }}'
-  tags:
-  - pyenv
+#- name: python versions latest build requirements
+#  pip:
+#    name:
+#    - Cython
+#    - pip
+#    - pip-tools
+#    - setuptools
+#    - virtualenv
+#    state: latest
+#    executable: '~/.pyenv/versions/{{ item }}/bin/pip{% if "pypy3" in item %}3{% endif %}'
+#  environment:
+#    PIP_REQUIRE_VIRTUALENV: ""
+#  loop: '{{ pyenv_python_versions }}'
+#  tags:
+#  - pyenv
 
 - name: Install pip packages
   pip:

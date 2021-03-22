@@ -14,8 +14,10 @@ Getting Started
 4. Make sure pyenv's python on path (it will be after my shell settings are in place from playbook)
 5. `python -m venv venv`
 6. `source venv/bin/activate`
+6. `pip install --upgrade pip`  (if you get an error to install Ansible)
 5. `pip install ansible` (always the best way to install Ansible)
 6. Then `./playbook.yml`
+7. Lastpass Plubins manual silet install https://lastpass.com/company/#!/settings/install-software
 
 Fork! Copy! Adapt!
 ------------------
