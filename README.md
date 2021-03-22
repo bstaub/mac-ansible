@@ -17,7 +17,9 @@ Getting Started
 6. `pip install --upgrade pip`  (if you get an error to install Ansible)
 5. `pip install ansible` (always the best way to install Ansible)
 6. Then `./playbook.yml`
-7. Lastpass Plubins manual silet install https://lastpass.com/company/#!/settings/install-software
+7. Chrome manuell installieren https://www.google.com/chrome/
+8. Lastpass Plubins manual silet install https://lastpass.com/company/#!/settings/install-software
+
 
 Fork! Copy! Adapt!
 ------------------
