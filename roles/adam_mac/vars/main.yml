@@ -81,6 +81,7 @@ homebrew_cask_packages:
 - lastpass
 - slack
 - alfred
+- evernote
 - skitch
 - handbrake
 - dropbox
