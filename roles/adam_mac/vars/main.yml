@@ -38,6 +38,7 @@ homebrew_packages:
 #- myrepos
 #- ncdu
 #- nginx
+- node
 - nvm
 - openssl
 #- ossp-uuid
@@ -55,6 +56,7 @@ homebrew_packages:
 #- qpdf
 #- readline
 - rsync
+- ssh-copy-id
 #- rtmpdump
 #- ruby
 #- ruby-build
@@ -75,7 +77,13 @@ homebrew_packages:
 
 homebrew_cask_packages:
 #- '0xed'
+- lastpass
+- slack
 - alfred
+- handbrake
+- dropbox
+- transmit
+- licecap
 #- anki
 #- calibre
 #- discord
@@ -83,6 +91,7 @@ homebrew_cask_packages:
 #- docker
 #- evernote
 - firefox
+- google-chrome
 #- homebrew/cask-fonts/font-ubuntu-mono-nerd-font
 #- franz
 - iterm2
