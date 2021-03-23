@@ -80,6 +80,7 @@ homebrew_cask_packages:
 - lastpass
 - slack
 - alfred
+- skitch
 - handbrake
 - dropbox
 - transmit
